@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import UploadCMP from './components/uploadCMP';
+import FormComponent from './components/FormCmp';
 
-const page = () => {
+const App = () => {
   return (
-    <div>page
-      <button className='btn btn-primary'>btn</button>
+    <div>
+      <h1>My Application</h1>
+      {/* <UploadCMP /> */}
+      <FormComponent></FormComponent>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default App;
