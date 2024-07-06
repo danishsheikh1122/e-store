@@ -3,3 +3,4 @@
 # Branch for authentication
 - endpoint for login 
 - connected with db
+- successfully created login endpoint using bcrypt for password encryption
