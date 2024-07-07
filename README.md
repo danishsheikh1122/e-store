@@ -9,3 +9,6 @@
 # Created form component 
 - created formcomponent inside components folder
 - it will handel add new product to db 
+
+# created endpoint for add to cart 
+- all details of the form is reflected on db 

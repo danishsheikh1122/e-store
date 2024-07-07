@@ -9,7 +9,6 @@ interface ImageData {
   public_id: string;
   url: string;
 }
-
 const FormComponent: React.FC = () => {
   const [formData, setFormData] = useState({
     productName: '',
@@ -32,8 +31,7 @@ const FormComponent: React.FC = () => {
     e.preventDefault();
 
     try {
-      console.log(formData)
-      const response = await fetch('/api/uploadProduct', {
+      const response = await fetch('/api/admin/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
